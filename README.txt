@@ -9,9 +9,9 @@ Prerequisites:
 ==============
 
 This layer depends on:
-    Yocto distro (master)
+    Yocto distro (honister)
         git://git.yoctoproject.org/poky
-    Python layer (meta-openembedded/meta-python)
+    Python layer (meta-openembedded/meta-python) (honister)
         git://git.openembedded.org/meta-openembedded
 
 Modify local conf by adding:
