@@ -14,4 +14,8 @@ PV = "2.7.0+git${SRCPV}"
 
 SRC_URI:append = " file://0001-cmake-add-yocto-toolchain.patch \
                     file://0001-x86-fix-efi-binary-generation-issue-in-cross-compila.patch \
+                    file://0001-sample-ipc-restructure-the-openamp_rsc_table-sample.patch \
+                    file://0002-sample-ipc-add-rpmsg-tty-channel-support-in-openampr.patch \
+                    file://0003-sample-ipc-add-service-bind-unbind-support-in-openam.patch \
+                    file://0004-sample-ipc-add-rpmsg-raw-channel-support-in-openamp-.patch \
                     "
